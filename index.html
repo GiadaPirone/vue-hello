@@ -17,7 +17,8 @@
         <input v-model="nome" placeholder="inserisci nome">
         <input v-model="cognome" placeholder="Inserisci cognome">
         <h2 v-bind:class="cssNomeCognome">{{nome}} {{cognome}}</h2>
-        <span> {{immagine}}</span>
+        <img :src="immagine" alt="">
+    
 
     </div>
     

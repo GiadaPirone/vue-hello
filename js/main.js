@@ -6,7 +6,7 @@ createApp({
             nome: "",
             cognome: "",
             cssNomeCognome: "nomeCognome",
-            immagine: ` src="./img/360_F_40451937_qem3GxnnaboDzPjgvZpudRXKx1lcRyk8.jpg"`
+            immagine: `./img/360_F_40451937_qem3GxnnaboDzPjgvZpudRXKx1lcRyk8.jpg`
         }
     }
 }).mount(`#app`)
